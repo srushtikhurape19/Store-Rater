@@ -1,0 +1,107 @@
+/* Login.css */
+
+.login-page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1a1a3a; /* Dark blue background */
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+    background-color: rgba(40, 40, 70, 0.7); /* Semi-transparent dark background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5); /* Stronger shadow */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid rgba(70, 70, 100, 0.5); /* Subtle border */
+    backdrop-filter: blur(5px); /* Frosted glass effect */
+}
+
+.login-icon {
+    font-size: 4.5rem;
+    color: #00bcd4; /* Light blue */
+    margin-bottom: 25px;
+    text-shadow: 0 0 15px rgba(0, 188, 212, 0.6); /* Glow effect */
+}
+
+.login-heading {
+    font-size: 2.8rem;
+    color: #e0e0e0; /* Light grey for text */
+    margin-bottom: 35px;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Subtle text glow */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-control {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    background-color: #fffacd; /* Light yellow background for input */
+    color: #333333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+.form-control::placeholder {
+    color: #888888;
+}
+
+.form-control:focus {
+    border-color: #00bcd4;
+    box-shadow: 0 0 0 4px rgba(0, 188, 212, 0.3);
+    outline: none;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 15px 18px;
+    background: linear-gradient(to right, #00bcd4, #26c6da); /* Light blue gradient */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 188, 212, 0.4); /* Button glow */
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #26c6da, #00bcd4);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 188, 212, 0.6);
+}
+
+.alert {
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
